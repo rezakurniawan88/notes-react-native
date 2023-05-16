@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "notes-react-native",
+    "name": "Notes App",
     "slug": "notes-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.notesapplication"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "830aa975-625f-4b20-bded-e4c28406ac1e"
+      }
     }
   }
 }
